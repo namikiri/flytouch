@@ -16,7 +16,7 @@ After you build the driver simply install it with `insmod`:
 ```
 
 ## Usage
-You'll also need a patched `inputattach` from LinuxConsole Tools (I've done it in @namikiri/linuxconsole). Just clone it and `make` & install it like you'd do it with the original tool.
+You'll also need a patched `inputattach` from LinuxConsole Tools (I've done it in [linuxconsole](https://github.com/namikiri/linuxconsole) repo). Just clone it and `make` & install it like you'd do it with the original tool.
 
 After building the tool run:
 
