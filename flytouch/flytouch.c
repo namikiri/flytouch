@@ -65,11 +65,11 @@ static void flytouch_process_data(struct flytouch *pflytouch, unsigned char data
 
     if (pflytouch->idx == 0) {
         switch (data) {
-            case 0xc8:
+            case FLYTOUCH_TOUCH_BEGIN:
                 pflytouch->state = FLYTOUCH_STATE_PRESSED;
                 break;
 
-            case 0x88:
+            case FLYTOUCH_TOUCH_END:
                 pflytouch->state = FLYTOUCH_STATE_RELEASED;
                 break;
 
